@@ -10,26 +10,9 @@
     </b>
 </h1>
 
-# <p align="center"> Pieces Copilot Streamlit Example
-   <p align="center">
-      <a href="https://github.com/pieces-app/pieces-copilot-streamlit-example" alt="GitHub contributors">
-         <img src="https://img.shields.io/github/contributors/pieces-app/pieces-copilot-streamlit-example.svg" />
-      <a>
-      <a href="https://github.com/pieces-app/pieces-copilot-streamlit-example" alt="GitHub issues by-label">
-         <img src="https://img.shields.io/github/issues/pieces-app/pieces-copilot-streamlit-example" />
-      </a>
-      <a href="https://discord.gg/getpieces" alt="Discord">
-         <img src="https://img.shields.io/badge/Discord-@layer5.svg?color=7389D8&label&logo=discord&logoColor=ffffff" />
-      </a>
-      <a href="https://twitter.com/getpieces" alt="Twitter Follow">
-         <img src="https://img.shields.io/twitter/follow/pieces.svg?label=Follow" />
-      </a>
-      <a href="https://github.com/pieces-app/pieces-copilot-streamlit-example" alt="License">
-         <img src="https://img.shields.io/github/license/pieces-app/pieces-copilot-streamlit-example.svg" />
-      </a>
-   </p>
-
+# <p align="center">  Pieces x Nextjs Chatbot
 </p>
+
 
 ## Introduction
 

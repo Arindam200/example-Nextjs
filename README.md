@@ -48,7 +48,7 @@ Before setting up the project we need to:
 
 1. Clone the repo by running the command
 ```sh
-git clone https://github.com/Arindam/example-Nextjs.git
+git clone https://github.com/Arindam200/example-Nextjs.git
 ```
 2. Go inside the folder by command
 ```sh

@@ -67,7 +67,7 @@ export default class CopilotStreamController {
    * Connects the websocket, handles all message callbacks, error handling, and rendering.
    */
   private connect() {
-    this.ws = new WebSocket(`ws://shivays-macbook-pro-2.tail9eaf5a.ts.net:1000/qgpt/stream`);
+    this.ws = new WebSocket(`ws://localhost:1000/qgpt/stream`);
 
     let totalMessage = '';
     let relevantSnippets: Pieces.RelevantQGPTSeed[] = [];

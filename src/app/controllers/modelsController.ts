@@ -1,5 +1,5 @@
 import * as Pieces from '@pieces.app/pieces-os-client';
-import CopilotStreamController from './CopilotStreamController';
+import CopilotStreamController from './copilotStreamController';
 
 export default class ModelController {
 public models: Promise<Pieces.Models>;

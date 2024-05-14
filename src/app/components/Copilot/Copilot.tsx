@@ -24,22 +24,6 @@ export function createNewConversation() {
   })
 }
 
-
-export async function askQuestion({
-                                    query,
-                                    relevant,
-                                  }: {
-  query: string;
-  relevant: string;
-}) {
-  const params: Pieces.QGPTQuestionInput = {
-    query,
-    relevant: {iterable: []},
-  };
-  const result = new Pieces.QGPTApi().question({qGPTQuestionInput: params});
-  return {result, query};
-}
-
 export function CopilotChat(): React.JSX.Element {
   const [chatInputData, setData] = useState('');
   const [message, setMessage] = useState<string>('');
@@ -76,6 +60,7 @@ export function CopilotChat(): React.JSX.Element {
     setMessage("")
     setData("")
   };
+
   return (
     <div className="flex-col">
       { chatHistory.length === 0 ? (<div className="mb-4 overflow-auto">
